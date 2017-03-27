@@ -14,4 +14,4 @@ Bloc Jams is a completely practical music player, developed first with JavaScrip
  
 ## Problem
  
-Bloc Jams is a browser-only replica of Spotify. The website has three pages - landing page for information, a collection page that was used to accumulate available albums on one page to select, and an album page where users could listen to an album. The player bar, located at the bottom of the album page, lets users have control over the album that is currently playing. 
+Bloc Jams is a browser-only replica of Spotify. The website has three pages - landing page for information, a collection page that was used to accumulate available albums on one page to select, and an album page where users could listen to an album. The player bar, located at the bottom of the album page, lets users have control over the album that is currently playing.
