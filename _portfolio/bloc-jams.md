@@ -1,10 +1,10 @@
-
+---
 layout: post
-title: BlocJams
+title: Bloc Jams
 thumbnail-path: "img/bloc-jams.png"
-short-description: BlocJams is a Spotify clone built with jQuery and rebuilt with AngularJS.
+short-description: Bloc Jams is a Spotify clone built with jQuery and rebuilt with AngularJS.
 
-
+---
 {:.center}
 ![]({{ site.baseurl }}/img/bloc-jams.png)
 
