@@ -1,0 +1,87 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/ (optional)
+url: "http://geekiam23.github.io" # the base hostname & protocol for your site
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: William Larry # Your name will go here
+  description: "A personal portfolio and blog website" # used by search engines
+
+  # Header and footer text
+  header_text: >
+     <h1>Curious and Awesome Bloc Student</h1>
+     <p>I'm a developer specializing in HTML, CSS, and JavaScript.</p>
+  header_text_feature_image:
+  footer_text: >
+   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+
+  # Icons
+  rss: false
+<<<<<<< HEAD
+  email: "will23larry@gmail.com"
+=======
+  email_address: "will23larry@gmail.com"
+>>>>>>> e7b637435cf92991ca0a7029d70bc2e34273f004
+  behance:
+  bitbucket:
+  dribbble:
+  facebook: "will.larry"
+  flickr:
+<<<<<<< HEAD
+  github_username: "geekiam23"
+=======
+  github: "geekiam23"
+>>>>>>> e7b637435cf92991ca0a7029d70bc2e34273f004
+  google_plus:
+  instagram: "will_larry/"
+  linkedin: "https://www.linkedin.com/in/william-larry-38a38a40/"
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+<<<<<<< HEAD
+  twitter_username: "will_larry23"
+=======
+  twitter: "will_larry23"
+>>>>>>> e7b637435cf92991ca0a7029d70bc2e34273f004
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: "UA-97172773-1"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Read more &raquo;"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Lato:300,400,700,300italic,700italic|Abril+Fatface"
+
+# PAGINATION
+paginate: 100
+paginate_path: "blog/page:num"
+
+# COLLECTIONS
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# BUILD SETTINGS
+markdown: kramdown
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+gems: [jekyll-paginate]
