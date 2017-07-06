@@ -18,13 +18,21 @@ theme_settings:
 
   # Icons
   rss: false
+<<<<<<< HEAD
   email: "will23larry@gmail.com"
+=======
+  email_address: "will23larry@gmail.com"
+>>>>>>> e7b637435cf92991ca0a7029d70bc2e34273f004
   behance:
   bitbucket:
   dribbble:
   facebook: "will.larry"
   flickr:
+<<<<<<< HEAD
   github_username: "geekiam23"
+=======
+  github: "geekiam23"
+>>>>>>> e7b637435cf92991ca0a7029d70bc2e34273f004
   google_plus:
   instagram: "will_larry/"
   linkedin: "https://www.linkedin.com/in/william-larry-38a38a40/"
@@ -34,7 +42,11 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
+<<<<<<< HEAD
   twitter_username: "will_larry23"
+=======
+  twitter: "will_larry23"
+>>>>>>> e7b637435cf92991ca0a7029d70bc2e34273f004
   wordpress:
   youtube:
 
