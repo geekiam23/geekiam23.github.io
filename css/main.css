@@ -23,11 +23,39 @@ hr.light {
   border-color: white
 }
 
+.blog{
+  margin-bottom: 20px;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  .blog {
+    right: 15px;
+  }
+}
+
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #F05F40
+}
+
+.post-title {
+  /*text-align: center;*/
+}
+
+.blog-title a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.blog-title a:hover, a:focus {
+  color: #FFFFFF
 }
 
 a:hover, a:focus {
@@ -64,21 +92,6 @@ section {
 aside {
   padding: 50px 0
 }
-
-/*@media (max-width: 768px) {
-    .project-text-title{font-size: 60px;}
-    .project-text{font-size: 40px;}
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .project-text-title{font-size: 100%;}
-    .project-text{font-size: 60%;}
-}
-
-@media (min-width: 991px) {
-    .project-text-title{font-size: 100%;}
-    .project-text{font-size: 80%;}
-}*/
 
 .no-padding {
   padding: 0
