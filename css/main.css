@@ -41,21 +41,21 @@ a {
   color: #F05F40
 }
 
-.post-title {
-  /*text-align: center;*/
+.blog-area {
+  margin-bottom: 50px;
 }
 
 .blog-title a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #FFFFFF;
+  color: #F05F40;
   font-size: 1.5em;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .blog-title a:hover, a:focus {
-  color: #FFFFFF
+  color: #F05F40
 }
 
 a:hover, a:focus {

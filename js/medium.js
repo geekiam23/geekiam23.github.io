@@ -20,9 +20,9 @@ $(function () {
 				 } else {
 					 visibleSm = ' visible-sm';
 				 }
-          output += '<div class="row blog-row' + visibleSm + '">';
+          output += '<div class="' + visibleSm + '">';
 
-          output += '<div class=" text-center"><div class="post-title"><a href="'+ item.link + '" target="_blank">' + item.title + '</a><hr class="light text-center blog hrSize"></div>';
+          output += '<div class="blog-area col-sm-6 text-center"><div class="post-title"><a href="'+ item.link + '" target="_blank">' + item.title + '</a><hr class=" text-center blog hrSize"></div>';
   				var yourString = item.description.replace(/<img[^>]*>/g,"");
   				var maxLength = 120
   				var trimmedString = yourString.substr(0, maxLength);
