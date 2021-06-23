@@ -10,11 +10,11 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Curious and Awesome Bloc Student</h1>
-     <p>I'm a developer specializing in HTML, CSS, and JavaScript.</p>
+    <h1>Curious and Awesome Bloc Student</h1>
+    <p>I'm a developer specializing in React.</p>
   header_text_feature_image:
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+    Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
 
   # Icons
   rss: false
@@ -31,7 +31,7 @@ theme_settings:
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange:  # Full URL
+  stack_exchange: # Full URL
   steam:
   tumblr:
   twitter_username: "will_larry23"
